@@ -1,0 +1,10 @@
+# Core dependencies for full GUI functionality
+pynput>=1.7.6
+pillow>=10.0.0
+pyautogui>=0.9.54
+keyboard>=0.13.5
+
+# Alternative minimal dependencies (if above fail to install)
+# These provide reduced functionality but allow the application to run
+# tkinter is built into Python on most systems
+# For systems without tkinter, install python3-tk or similar package
